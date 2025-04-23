@@ -1,0 +1,67 @@
+.mall-list-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .mall-list-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mall-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mall-item {
+    margin: 15px 0;
+  }
+  
+  .mall-item-name {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 50%;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .mall-item-name:hover {
+    background-color: #2980b9;
+  }
+  
+  .mall-details {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .mall-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mall-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .mall-address,
+  .mall-location {
+    margin-top: 10px;
+  }
+  
+  .mall-employees {
+    margin-top: 15px;
+  }
+  
+  .employee-item {
+    margin-bottom: 5px;
+  }
+  

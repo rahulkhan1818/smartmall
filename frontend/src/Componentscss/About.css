@@ -1,0 +1,196 @@
+.about-header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.about-nav {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    text-align: center;
+    top: 0;
+
+}
+
+.nav-link {
+    color: #f0a500;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Main Content */
+.about-main {
+    padding: 40px;
+    background: #A9B5Df
+    ;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f0a500;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* Owner List */
+.owner-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.owner-list li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #f0a500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Benefits List */
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.benefits-list li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #f0a500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Address Section */
+.mall-address {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #f0a500;
+    font-weight: bold;
+}
+
+/* Footer */
+
+
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-link, .owner-list li {
+    animation: bounceIn 1s ease-in-out;
+}
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-header {
+        font-size: 1.5rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+    .about-main {
+        padding: 20px;
+    }
+    .about-footer {
+        font-size: 0.9rem;
+    }
+}
+/* Owner Section */
+.owner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.owner-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.owner-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Owner Image */
+.owner-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    border: 3px solid #f0a500;
+    transition: transform 0.3s ease-in-out;
+}
+p{
+    font-size: 26px;
+}
+.owner-card:hover .owner-image {
+    transform: scale(1.1);
+}
+
+/* Owner Name */
+.owner-card h3 {
+    color: #f0a500;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+/* Owner Details */
+.owner-card p {
+    color: #ddd;
+    font-size: 1rem;
+    margin-top: 5px;
+}

@@ -1,0 +1,58 @@
+
+/* Malls css */
+
+
+.mainmallcontainer{
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+}
+.Containers{
+    margin-top: 5vh;
+    width: 300px;
+    height: 420px;
+    background-color: #2D336B;
+    z-index: 2;
+    display: block;
+   
+    
+}
+.containerr{
+    margin-left:-300px;
+    width: 300px;
+    height: 420px;
+    background-color:#2D336B;
+    
+}
+.ContainerMall{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 40vh;
+  border-radius:10px;
+  background-color: #2D336B;
+}
+.Malls{
+   height:6vh;
+   width: 120px;
+   margin: 10px;
+   border-radius: 20px;
+
+}
+.icon{
+   align-items: center;
+   color: azure;
+   justify-content: center;
+   /* position: fixed; */
+   left: 0;
+   top: 10.6vh;
+   border-radius: 30px;
+   z-index: 1;
+   height:50px;
+   width: 150px;
+   margin: 10px 0px 10px 0;
+   padding: 10px 0px 0px 30px;
+   background-color: blue;
+}

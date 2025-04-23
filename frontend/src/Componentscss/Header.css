@@ -1,0 +1,215 @@
+/* header css write */
+.headerfs{
+    /* height: 160px; */
+    width: 100%;
+   
+    
+}
+header{
+    /* height: 90px; */
+    width: 100%;
+    position:sticky;
+    background-color: #7886C7;
+    z-index: 1;
+    top:0;
+}
+.indiaflag{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.content{
+    margin-bottom: 14px;
+}
+.text-light{
+    margin-top: 24px;
+}
+.actiona{
+    padding: 25px;
+}
+.inputbox{
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn{
+    border-radius:20px ;
+}
+.booticon{
+    height: 30px;
+    width: 30px;
+}
+.ContainerMalls1{
+    padding-top: 8%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+}
+.Account{
+   margin-top: 20px;
+    height: 50px;
+    padding: 19px 25px 19px 12px;
+    background-color:red ;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.Account h4{
+    padding-top: 3px;
+}
+.displaynone{
+    display: none;
+}
+
+.logAccount{
+    position:absolute ;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius:12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D336B;
+    z-index: 2;
+}
+.profileImage{
+    display: flex;
+
+}
+.profileImage img{
+    margin: 10px 0 0 12px;
+    height: 60px;
+    width: 60;
+    background-size: cover;
+    border-radius: 50%;
+}
+.profileImage h4{
+   padding-top: 12px;
+}
+.logAccount h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 18px;
+}
+.Notification{
+    gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Notification svg{
+    margin-top: 5;
+}
+.logAccount button{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    margin-left: -5px;
+    background-color: rgb(0, 221, 255);
+}
+
+.containersec{
+    /* height: 90px; */
+    width: 100%;
+    border-top: 2px solid white;
+    background-color:#7886C1;
+  }
+  
+  
+  .SecondHeader{
+      margin: 12px 5px 12px 5px;
+      height: 80px;
+      width: 80%;
+      position: relative;
+      /* background-color: blueviolet; */
+      margin-right: 0;
+      }
+          
+      .buttonsec button{
+        background-color: aliceblue;
+          margin: 15px;
+          height: 40px;
+          width: 120px;
+          border-radius: 25px;
+      }
+      .buttonsec button Link{
+        text-decoration: none;
+        color: white;
+      }
+      .buttonsec{
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+          padding-left: 150px;
+      }
+      .buttonsec button:hover{
+          /* box-shadow: 10px 10px 56px red; */
+          border-radius:8px solid black;
+      }
+      
+.cart{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.cart p{
+   font-size: 12px;
+   margin-left: 16px;
+
+}
+.gap-3{
+   margin-right: 20px;
+    }
+/* Tablets and Small Laptops (max-width: 992px) */
+/* Tablets and Small Laptops (max-width: 992px) */
+@media (max-width: 992px) {
+    .buttonsec {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .buttonsec button {
+      font-size: 16px;
+      padding: 8px 12px;
+    }
+  }
+  
+  /* Mobile Devices (max-width: 768px) */
+  @media (max-width: 768px) {
+    .buttonsec {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+  
+    .buttonsec button {
+      width: 90%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  /* Small Phones (max-width: 480px) */
+  @media (max-width: 480px) {
+    .buttonsec button {
+      width: 100%;
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  .disable{
+   display: none;
+  }
+  
